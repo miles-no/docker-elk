@@ -44,6 +44,7 @@ cd scripts
 ```
 
 The Kibana dashboard shall then be available at:
+
 http://192.168.59.103:8080/kibana/#/dashboard/file/default.json
 
 
