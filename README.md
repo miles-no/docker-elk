@@ -10,7 +10,7 @@ The HTTP port is mapped to port 8080 on host. If this port occupied, change the 
 ```export HTTP_PORT="-e HTTPPORT=8080 -p 8080:80"```
 
 Some directories in the docker container are exposed to the host:
-The location is defined in ``scripts/env.sh``
+The locations are defined in ``scripts/env.sh``
 ```
 ## OPTIONAL -> if you want to store Elasticsearchs data outside
 export ES_PERSIST="-v ${HOME}/elasticsearch:/var/lib/elasticsearch"
