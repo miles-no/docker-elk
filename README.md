@@ -23,6 +23,13 @@ export LS_CONF="-v ${HOME}/logstash.d/:/etc/logstash/conf.d/"
 export AP_LOG="-v ${HOME}/var/log/apache2/:/var/log/apache2"
 ```
 
+The username and password are also specified in ``scripts/env.sh``
+```
+# if a user is set and no passwd, the user will be set as password
+export HTUSER=kibana
+export HTPASSWD=secretpw
+```
+
 * Install Docker
 
 ```
