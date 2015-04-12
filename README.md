@@ -32,17 +32,18 @@ export HTPASSWD=secretpw
 
 * Download and install Docker
 * Mac and Windows requires boot2docker:
-  *Intro
-http://boot2docker.io/
-https://github.com/boot2docker/boot2docker
-  *Install
-https://docs.docker.com/installation/mac/
-https://docs.docker.com/installation/windows/
-  *Download
-https://github.com/boot2docker/osx-installer/releases
-https://github.com/boot2docker/windows-installer/releases
-  *Share 
-På Mac deles automatisk /Users med Docker.Følg denne bruksanvisningen for å koble en mappe på Docker-image til Windows host: http://www.incrediblemolk.com/sharing-a-windows-folder-with-the-boot2docker-vm/
+  
+  * Intro  
+  http://boot2docker.io/  
+  https://github.com/boot2docker/boot2docker  
+  * Install  
+  https://docs.docker.com/installation/mac/  
+  https://docs.docker.com/installation/windows/  
+  * Download  
+  https://github.com/boot2docker/osx-installer/releases  
+  https://github.com/boot2docker/windows-installer/releases  
+  * Share  
+For Mac users the folder /Users is automatically shared with Docker. Please follow this guide in order share a map between a Docker image and Windows host: http://www.incrediblemolk.com/sharing-a-windows-folder-with-the-boot2docker-vm/
 
 
 ```
