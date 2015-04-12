@@ -5,7 +5,7 @@ https://registry.hub.docker.com/u/qnib/elk/
 
 The startup script are slightly modified.
 
-The HTTP port is mapped to port 8080 on host. If this port occupied, change the port in ``scripts/env.sh``
+The HTTP port is mapped to port 8080 on host. If this port is occupied, change the port in ``scripts/env.sh``
 
 ```export HTTP_PORT="-e HTTPPORT=8080 -p 8080:80"```
 
