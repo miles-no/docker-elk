@@ -3,7 +3,7 @@
 The ELK Container used is 
 https://registry.hub.docker.com/u/qnib/elk/
 
-The startup script are slighly modified.
+The startup script are slightly modified.
 
 The HTTP port is mapped to port 8080 on host. If this port occupied, change the port in ``scripts/env.sh``
 
