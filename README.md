@@ -1,5 +1,9 @@
 # docker-elk
 
+The ELK Container used is 
+https://registry.hub.docker.com/u/qnib/elk/
+
+
 * Install Docker
 
 ```
@@ -11,5 +15,9 @@ export DOCKER_TLS_VERIFY=1
 
 ## Check that the docker is installed properly
 docker run hello-world
+
+## Download ELK Container
 docker pull qnib/elk
+
+## Start ELK Container in detached 
 ```
