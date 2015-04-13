@@ -19,7 +19,6 @@ cd kibana-4.0.2-linux-x64/
 ./bin/kibana &
 curl -X GET http://localhost:5601/
 cd ..
-
 ```
 ## Kibana MAC OS 64bit
 ```
