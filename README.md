@@ -17,8 +17,8 @@ cd ..
 curl -O https://download.elastic.co/kibana/kibana/kibana-4.0.2-darwin-x64.tar.gz
 tar zxvf kibana-4.0.2-darwin-x64.tar.gz
 cd kibana-4.0.2-darwin-x64
-curl -X GET http://localhost:5601/
 ./bin/kibana &
+curl -X GET http://localhost:5601/
 cd ..
 ```
 ## Logstash
