@@ -11,9 +11,19 @@ curl -X GET http://localhost:9200/
 cd ..
 ```
 
-## Kibana 
+## Kibana Linux 64 bit
 ```
-## Kibana 
+curl -O https://download.elastic.co/kibana/kibana/kibana-4.0.2-linux-x64.tar.gz
+tar zxvf kibana-4.0.2-linux-x64.tar.gz 
+cd kibana-4.0.2-linux-x64/ 
+./bin/kibana &
+curl -X GET http://localhost:5601/
+cd ..
+
+```
+## Kibana MAC OS 64bit
+```
+##  Kibana MAC OS 64bit 
 curl -O https://download.elastic.co/kibana/kibana/kibana-4.0.2-darwin-x64.tar.gz
 tar zxvf kibana-4.0.2-darwin-x64.tar.gz
 cd kibana-4.0.2-darwin-x64
