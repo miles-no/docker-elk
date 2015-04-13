@@ -1,4 +1,12 @@
-# Plain ELK Stack
+## ELK on Windows
+Follow this howto to get the ELK stack running on Windows: 
+
+https://community.ulyaoth.net/threads/how-to-install-logstash-on-a-windows-server-with-kibana-in-iis.17/
+
+Note that the IIS steps (6 - 10) can be skipped. Kibana will be accessible locally on port 5601.
+
+
+# Plain ELK Stack Linux MAC
 
 ## Elastic Search
 ```
@@ -31,21 +39,13 @@ curl -X GET http://localhost:5601/
 cd ..
 ```
 
-## ELK on Windows
-```
-## ELK on Windows
-Follow this howto to get the ELK stack running on Windows: 
 
-https://community.ulyaoth.net/threads/how-to-install-logstash-on-a-windows-server-with-kibana-in-iis.17/
 
-Note that the IIS steps (6 - 10) can be skipped. Kibana will be accessible locally on port 5601.
-```
 ## Logstash
 ```
 ## Logstash
 curl -O https://download.elastic.co/logstash/logstash/logstash-1.4.2.tar.gz
 tar zxvf logstash-1.4.2.tar.gz
-
 ```
 
 
