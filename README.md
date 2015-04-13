@@ -1,5 +1,37 @@
-# docker-elk
+# Plain ELK Stack
 
+## Elastic Search
+```
+## Elastic Search
+curl -O https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.1.tar.gz
+tar xzvf elasticsearch-1.5.1.tar.gz
+cd elasticsearch-1.5.1
+bin/elasticsearch &
+curl -X GET http://localhost:9200/
+cd ..
+```
+
+## Kibana 
+```
+## Kibana 
+curl -O https://download.elastic.co/kibana/kibana/kibana-4.0.2-darwin-x64.tar.gz
+tar zxvf kibana-4.0.2-darwin-x64.tar.gz
+cd kibana-4.0.2-darwin-x64
+curl -X GET http://localhost:5601/
+./bin/kibana &
+cd ..
+```
+## Logstash
+```
+## Logstash
+curl -O https://download.elastic.co/logstash/logstash/logstash-1.4.2.tar.gz
+tar zxvf logstash-1.4.2.tar.gz
+
+```
+
+
+
+# docker-elk
 The ELK Container used is 
 https://registry.hub.docker.com/u/qnib/elk/
 
