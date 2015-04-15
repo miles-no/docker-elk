@@ -5,7 +5,6 @@ https://community.ulyaoth.net/threads/how-to-install-logstash-on-a-windows-serve
 
 Note that the IIS steps (6 - 10) can be skipped. Kibana will be accessible locally on port 5601.
 
-
 # Plain ELK Stack Linux / MAC
 
 ## Elastic Search
