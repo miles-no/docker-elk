@@ -45,6 +45,8 @@ cd ..
 ## Logstash
 curl -O https://download.elastic.co/logstash/logstash/logstash-1.4.2.tar.gz
 tar zxvf logstash-1.4.2.tar.gz
+cd logstash-1.4.2
+
 ```
 
 
