@@ -1,3 +1,5 @@
+source ./local-env.sh
+source ./env.sh
 docker run -d-h elk --name elk --privileged \
     ${DNS_STUFF} ${DEV_MOUNTS} ${LINK} \
     -p 5514:5514 \
