@@ -1,4 +1,4 @@
-## Task
+## Workshop tasks
 
 http://goo.gl/Q68bfr
 
